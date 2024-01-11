@@ -32,45 +32,51 @@ export const navLinks = [
     id: "clients",
     title: "Clients",
   },
+  {
+    id: "contactUs",
+    title: "Contact Us",
+  },
 ];
 
 export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Comprehensive Solutions",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Our Full Stack Project Solutions encompass both frontend and backend development, providing a comprehensive approach to your academic projects.",
+
   },
   {
     id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
+    icon: send,
+    title: "Customized Development",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Our team offers tailored development services, adapting to your specific requirements and academic needs to deliver personalized solutions.",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
+    icon: shield,
+    title: "Timely Delivery",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "We are committed to delivering your projects on time, ensuring you meet your academic deadlines and achieve your academic goals.",
   },
 ];
+
 export const feedback = [
   {
     id: "feedback-1",
     content:
       "Exceptional assistance for my projects, achieving top grades.",
-    name: "Emma Johnson",
-    title: "College Student",
+    name: "Swapnil Zoting.",
+    title: "Student",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
       "Timely and high-quality solutions, highly recommend their services.",
-    name: "Ryan Smith",
+    name: "Pratiksha Wanjari.",
     title: "College Student",
     img: people01,
   },
@@ -78,38 +84,13 @@ export const feedback = [
     id: "feedback-3",
     content:
       "Managed my workload effectively, enabling focus on academic life.",
-    name: "Sophia Williams",
+    name: "Himanshu Supare.",
     title: "College Student",
     img: people01,
   },
 ];
 
-/* export const feedback = [
-  {
-    id: "feedback-1",
-    content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
-  },
-  {
-    id: "feedback-2",
-    content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
-  },
-  {
-    id: "feedback-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
-  },
-]; */
+
 
 export const stats = [
   {
@@ -240,12 +221,10 @@ export const clients = [
 ];
 
 
-
 export const projects = [
   {
     id: "project-1",
-    content:
-      "Developed an innovative mobile application for campus navigation, enhancing student experience.",
+    content: "Experience a curated showcase of my work, blending creativity. Dive in to explore design excellence tailored for today's digital landscape.",
     name: "John Doe",
     title: "Computer Science Student",
     img: project01, // You can replace this with the actual path to the image for the first project
@@ -253,7 +232,7 @@ export const projects = [
   {
     id: "project-2",
     content:
-      "Designed an interactive website for student organizations, fostering collaboration and engagement.",
+      "Embark on a journey with Travel Website, where one click opens door to new horizons. Discover and create unforgettable memories on our platform.",
     name: "Jane Smith",
     title: "Information Technology Student",
     img: project02, // You can replace this with the actual path to the image for the second project
@@ -269,9 +248,10 @@ export const projects = [
   {
     id: "project-4",
     content:
-      "Created a virtual laboratory platform for remote learning, enabling practical experience from anywhere.",
+    "Discover culinary delights that tantalize your taste buds. Dive into a world of flavors, fresh ingredients, and mouthwatering recipes.",
     name: "Emily Williams",
     title: "Biotechnology Student",
     img: project04, // You can replace this with the actual path to the image for the fourth project
   },
+  
 ];

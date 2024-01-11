@@ -1,5 +1,5 @@
 import React from 'react'
-import { apple, bill, google } from '../assets'
+import { apple, bill, google  , card} from '../assets'
 import styles, { layout } from '../style'
 
 const Billing = () => {
@@ -7,7 +7,7 @@ const Billing = () => {
     <section id='product' className={layout.sectionReverse}>
       <div className={layout.sectionImgReverse}>
         <img
-          src={bill}
+          src={card}
           alt='billing'
           className='w-[100%] h-[100%] relative z-[5]'
         />

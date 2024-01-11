@@ -35,7 +35,7 @@ const Business = () => {
           But with numerous assignments and deadlines to meet,
           let us simplify your journey to academic success.
         </p>
-        <Button styles='mt-10'/>
+        {/* <Button styles='mt-10' /> */}
       </div>
       <div className={`${layout.sectionImg} flex-col`}>
         {features.map((feature, index) => (
