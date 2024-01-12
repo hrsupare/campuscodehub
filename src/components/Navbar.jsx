@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar relative'>
       {/* Logo */}
-      <img src={logo} alt='hoobank' className='w-[254px] h-[92px]' />
+      <img src={logo} alt='campuscodehub' className='w-[254px] h-[92px]' />
 
       {/* Desktop Navbar */}
       <ul className='hidden sm:flex justify-end items-center flex-1'>

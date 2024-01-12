@@ -16,7 +16,9 @@ const Hero = () => {
             <span className='text-gradient'>
               CampusCode.Hub
             </span>
+            
           </h1>
+          
         </div>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           Our team of experts is dedicated to helping college students excel in their academic projects. 

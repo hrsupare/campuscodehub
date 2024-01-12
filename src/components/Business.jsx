@@ -24,7 +24,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 ) 
 const Business = () => {
   return (
-    <section id='features' className={`${layout.section}`}>
+    <section  className={`${layout.section}`}>
       <div className={layout.sectionInfo}>
         <h2 className={`${styles.heading2} text-center mb-8`}>
           Focus on your studies, <br className='sm:block hidden'/>we'll handle the projects.

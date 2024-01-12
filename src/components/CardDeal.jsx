@@ -5,7 +5,7 @@ import styles, { layout } from '../style'
 
 const CardDeal = () => {
   return (
-    <section className={layout.section}>
+    <section  className={layout.section}>
 
       
        <div className={layout.sectionInfo}>

@@ -67,29 +67,29 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Exceptional assistance for my projects, achieving top grades.",
-    name: "Swapnil Zoting.",
-    title: "Student",
+      "Guided me through the development of a portfolio website using React.js and Express.js. The team's expertise with HTML, CSS, and MongoDB was instrumental.",
+    name: "Amit Deshmukh",
+    title: "B.Tech Student",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Timely and high-quality solutions, highly recommend their services.",
-    name: "Pratiksha Wanjari.",
-    title: "College Student",
+      "Assisted in developing my travel website, enabling users to explore destinations, plan trips, and share experiences. Their expertise in React.js, Node.js, and JavaScript was instrumental for its successful completion.",
+    name: "Rajesh Patil",
+    title: "BCA Student",
     img: people01,
-  },
-  {
-    id: "feedback-3",
-    content:
-      "Managed my workload effectively, enabling focus on academic life.",
-    name: "Himanshu Supare.",
-    title: "College Student",
-    img: people01,
-  },
+  }
+ ,   
+ {
+  id: "feedback-4",
+  content:
+    "Developed a comprehensive food website that offers recipes, cooking tips, and culinary insights. We worked diligently on their food website, leveraging our expertise in React.js.",
+  name: "Anjali Jadhav",
+  title: "BE (CS) Student",
+  img: people01,
+},
 ];
-
 
 
 export const stats = [
@@ -115,27 +115,19 @@ export const stats = [
 export const footerLinks = [
   {
     title: "Useful Links",
-    links: [
-      {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
-      },
+    links: [ 
       {
         name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: "https://www.campuscodehub.tech/how-it-works/",
       },
       {
         name: "Create",
-        link: "https://www.hoobank.com/create/",
+        link: "https://www.campuscodehub.tech/create/",
       },
       {
         name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
+        link: "https://www.campuscodehub.tech/explore/",
+      }, 
     ],
   },
   {
@@ -143,24 +135,12 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
+        link: "https://www.campuscodehub.tech/help-center/",
+      }, 
       {
         name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
+        link: "https://www.campuscodehub.tech/suggestions/",
+      }, 
     ],
   },
   {
@@ -168,11 +148,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        link: "https://www.campuscodehub.tech/our-partner/",
       },
       {
         name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "https://www.campuscodehub.tech/become-a-partner/",
       },
     ],
   },
@@ -221,7 +201,7 @@ export const clients = [
 ];
 
 
-export const projects = [
+/* export const projects = [
   {
     id: "project-1",
     content: "Experience a curated showcase of my work, blending creativity. Dive in to explore design excellence tailored for today's digital landscape.",
@@ -252,6 +232,42 @@ export const projects = [
     name: "Emily Williams",
     title: "Biotechnology Student",
     img: project04, // You can replace this with the actual path to the image for the fourth project
+  },
+  
+]; */
+export const projects = [
+  {
+    id: "project-1",
+    content: "Designed and implemented a portfolio website highlighting skills, projects, and achievements, leveraging HTML, CSS, and MongoDB.",
+    name: "Amit Deshmukh",
+    title: "B.Tech Student",
+    img: project01, // Actual path to the image for the first project
+  },
+  
+  {
+    id: "project-2",
+    content:
+      "Developed a travel website where users can explore destinations, plan trips, and share experiences, leveraging React.js, Node.js, and JavaScript.",
+    name: "Rajesh Patil",
+    title: "BCA Student",
+    img: project02, // Actual path to the image for the second project
+  }
+,   
+{
+  id: "project-3",
+  content:
+    "Designed a bakery website that showcases a variety of baked products, from artisan bread to gourmet pastries .",
+  name: "Pooja Pawar",
+  title: "MCA Student",
+  img: project03, // Actual path to the image for the third project
+} , 
+  {
+    id: "project-4",
+    content:
+    "Designed a food website featuring recipes, culinary tips, and food blogs, providing users with a delightful gastronomic experience using React.js and Tailwind",
+  name: "Anjali Jadhav",
+    title: "BE (CS) Student",
+    img: project04, // Actual path to the image for the fourth project
   },
   
 ];
