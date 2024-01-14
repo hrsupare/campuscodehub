@@ -68,7 +68,7 @@ export const feedback = [
     id: "feedback-1",
     content:
       "Guided me through the development of a portfolio website using React.js and Express.js. The team's expertise with HTML, CSS, and MongoDB was instrumental.",
-    name: "Amit Deshmukh",
+    name: "Amit Mankar",
     title: "B.Tech Student",
     img: people01,
   },
@@ -76,7 +76,7 @@ export const feedback = [
     id: "feedback-2",
     content:
       "Assisted in developing my travel website, enabling users to explore destinations, plan trips, and share experiences. Their expertise in React.js, Node.js, and JavaScript was instrumental for its successful completion.",
-    name: "Rajesh Patil",
+    name: "Rahul Sahare",
     title: "BCA Student",
     img: people01,
   }
@@ -85,7 +85,7 @@ export const feedback = [
   id: "feedback-4",
   content:
     "Developed a comprehensive food website that offers recipes, cooking tips, and culinary insights. We worked diligently on their food website, leveraging our expertise in React.js.",
-  name: "Anjali Jadhav",
+  name: "Anjali Rahate",
   title: "BE (CS) Student",
   img: people01,
 },
@@ -239,7 +239,7 @@ export const projects = [
   {
     id: "project-1",
     content: "Designed and implemented a portfolio website highlighting skills, projects, and achievements, leveraging HTML, CSS, and MongoDB.",
-    name: "Amit Deshmukh",
+    name: "Amit Mankar",
     title: "B.Tech Student",
     img: project01, // Actual path to the image for the first project
   },
@@ -248,7 +248,7 @@ export const projects = [
     id: "project-2",
     content:
       "Developed a travel website where users can explore destinations, plan trips, and share experiences, leveraging React.js, Node.js, and JavaScript.",
-    name: "Rajesh Patil",
+    name: "Rahul Sahare",
     title: "BCA Student",
     img: project02, // Actual path to the image for the second project
   }
@@ -257,15 +257,15 @@ export const projects = [
   id: "project-3",
   content:
     "Designed a bakery website that showcases a variety of baked products, from artisan bread to gourmet pastries .",
-  name: "Pooja Pawar",
-  title: "MCA Student",
+  name: "Pooja Panse",
+  title: "BCCA Student",
   img: project03, // Actual path to the image for the third project
 } , 
   {
     id: "project-4",
     content:
     "Designed a food website featuring recipes, culinary tips, and food blogs, providing users with a delightful gastronomic experience using React.js and Tailwind",
-  name: "Anjali Jadhav",
+  name: "Anjali Rahate",
     title: "BE (CS) Student",
     img: project04, // Actual path to the image for the fourth project
   },
