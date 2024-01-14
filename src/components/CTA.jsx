@@ -80,7 +80,7 @@ const CTA = () => {
 
   return (
     <section id="contactUs" className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
-      <div className="flex-1 flex flex-col items-center justify-center text-white">
+      <div className="flex-1 flex flex-col items-center justify-center text-black">
         <h2 className={`${styles.heading2} text-2xl mb-4 text-center`}>Get Expert Help for Your Projects!</h2>
         <p className={`${styles.paragraph} max-w-[470px] text-center mb-6`}>
           Just send us your details, and our dedicated team will reach out to you shortly. Discuss your project ideas with our experts and navigate your academic journey with confidence.
